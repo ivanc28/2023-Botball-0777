@@ -38,11 +38,11 @@ int main()
     Right(47);				//face cube
     Forward(20);					//move to cube
     Claw(close);				//grab cube
-    Backward(20);				//back up away from cube
+    Backward(10);				//back up away from cube
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-    Left(50);					//face away from ping-pong balls
-    Backward(200);				//move to ping-pong ballls
-    Left(90);			//Turn left in big starting box to face ping pongs
+    Left(42);					//face away from ping-pong balls
+    Backward(195);				//move to ping-pong ballls
+    Left(155);				//Turn left in big starting box to face ping pongs
     Forward(15);
     Claw(open); 		//place cube under ping pong balls
     
